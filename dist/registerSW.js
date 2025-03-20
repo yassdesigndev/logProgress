@@ -1,1 +1,1 @@
-if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/logProgress/sw.js', { scope: '/logProgress/' })})}
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('https://yassdesigndev.github.io/logProgress/sw.js', { scope: 'https://yassdesigndev.github.io/logProgress/' })})}
